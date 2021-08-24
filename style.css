@@ -1,0 +1,45 @@
+h1 {
+    font-family: monospace;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: monospace;
+    font-size: 16px;
+  }
+
+  p {
+    font-family: cursive;
+    font-size: 16px;
+  }
+
+  #trybe {
+    color: indigo;
+  }
+
+  #cisco {
+    color: indigo;
+    font-size: 14px;
+  }
+  body {
+    background-color: rgb(200, 255, 200);
+  }
+  
+  ul {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+  }
+
+  .destacada {
+    color: indigo;
+    font-size: 16px;
+  }
+
+  .grifo {
+    font-size: 18px;
+    color: indigo;
+  }
+
+  .links {
+    font-weight: 500;
+  }
