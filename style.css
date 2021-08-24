@@ -1,16 +1,25 @@
 h1 {
     font-family: monospace;
     font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.205);
+    color: rgb(3, 3, 128);
   }
 
   h3 {
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
   }
-
+  
   p {
     font-family: cursive;
     font-size: 16px;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    left: 340px;
+    padding: 40px;
+    border-radius: 10px;
   }
 
   #trybe {
@@ -23,11 +32,12 @@ h1 {
   }
   body {
     background-color: rgb(200, 255, 200);
+    padding: 2%;
   }
   
-  ul {
+  ul, ol {
     font-family: 'Montserrat',sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .destacada {
@@ -43,3 +53,20 @@ h1 {
   .links {
     font-weight: 500;
   }
+
+  #foto {
+      float: left;
+      padding: 8px;
+      background-color: rgba(255, 193, 21, 0.836);
+  }
+
+  .image-container {
+      height: 350px;
+  }
+
+  div {
+     
+      position: relative;
+      background-color: rgba(255, 255, 0, 0.151);
+  }
+  
