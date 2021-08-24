@@ -5,100 +5,54 @@
     <meta charset="UTF-8">
     <title>Portifólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <style>
-
-      h1 {
-        font-family: monospace;
-        font-size: 30px;
-      }
-
-      h3 {
-        font-family: monospace;
-        font-size: 16px;
-      }
-
-      p {
-        font-family: cursive;
-        font-size: 16px;
-      }
-
-      #trybe {
-        color: indigo;
-      }
-
-      #cisco {
-        color: indigo;
-        font-size: 14px;
-      }
-      body {
-        background-color: rgb(200, 255, 200);
-      }
-      
-      ul {
-        font-family: 'Montserrat',sans-serif;
-        font-size: 14px;
-      }
-
-      .destacada {
-        color: indigo;
-        font-size: 16px;
-      }
-
-      .grifo {
-        font-size: 18px;
-        color: indigo;
-      }
-
-      .links {
-        font-weight: 500;
-      }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
   </head>
 
   <body>
-    <h3>Seções</h3>
+    <h3 id="topo">Seções</h3>
     <ol>
       <li><a href="#ap">Apresentação</a></li>
       <li><a href="#ha">Habilidades</a></li>
       <li><a href="#link">Links</a></li>
     </ol>
-    <h1>Ivan Mastrangelo Dias</h1>
-    <img id="foto" src="/imagens/perfil.jpeg" alt="Foto do perfil" width="250">
+    
+      <h1>Ivan Mastrangelo Dias</h1>
+      <div class="image-container">
+        <img id="foto" src="/imagens/perfil.jpeg" alt="Foto do perfil" width="250">
+          <p id="ap">
+            Filho de brasileiro, nascido no Uruguai, possuo as <span class="grifo">duas nacionalidades</span>. Hoje vivo em <span class="grifo">Juiz de Fora</span>. Cheguei ao Brasil com cinco anos. Cresci no Rio de Janeiro, onde fui músico profissional.<br> Mais à frente, mudei para Brasilia, onde cursei além de Análise de Sistemas, na faculdade UNEB, o Cisco <em><span id="cisco">CNAP 3.1 CCNA</span></em>, no SENAI-Centro de TI/Brasília.<br>
 
-    <h3 id="ap"><em>Apresentação</em></h3>
-      <p>
-        Filho de brasileiro, nascido no Uruguai, possuo as <span class="grifo">duas nacionalidades</span>. Hoje vivo em <span class="grifo">Juiz de Fora</span>. Cheguei ao Brasil com cinco anos. Cresci no Rio de Janeiro, onde fui músico profissional.<br> Mais à frente, mudei para Brasilia, onde cursei além de Análise de Sistemas, na faculdade UNEB, o Cisco <em><span id="cisco">CNAP 3.1 CCNA</span></em>, no SENAI-Centro de TI/Brasília.
-      <p> 
-      <p>
-        Depois de atuar na área de redes por um longo período, hoje estou cursando Desenvolvimento de Software na Escola <strong><i><span id="trybe">Trybe</span></i></strong>, que veio ao encontro dos meus planos de migrar para essa área. 
-      </p>
-
-    <hr>
+            Depois de atuar na área de redes por um longo período, hoje estou cursando Desenvolvimento de Software na Escola <strong><i><span id="trybe">Trybe</span></i></strong>, que veio ao encontro dos meus planos de migrar para essa área. 
+          </p>
+    </div>
+  
 
     <h3 id="ha"><em>Habilidades</em></h3>
 
     <ul>
+      <li class="destacada"><strong><i>Trabalho em equipe</i></strong></li>
       <li>Pensamento colaborativo</li>
-      <li class=destacada><strong><i>Trabalho em equipe</i></strong></li>
+      <li class="destacada"><strong><i>Comprometido</i></strong></li>
       <li>Comunicativo</li>
-      <li class=destacada><strong><i>Comprometido</i></strong></li>
+      <li class="destacada"><strong><i>Dedicado</i></strong></li>
       <li>Estudioso</li>
-      <li class=destacada><strong><i>Dedicado</i></strong></li>
-      <li>configuração e manutenção de redes</li>
+      <li class="destacada"><strong><i>configuração de router, switch,<br> modem óptico</i></strong></li>
       <li>Músico, baterista</li>
+      <li class="destacada"><strong><i>HTML</i></strong></li>
+      <li>CSS</li>
+      
     </ul>
     <hr>
     <h3 id="link"><em>Links</em></h3>
     <ul>
       <li class=links><a href="https://www.linkedin.com/in/ivan-mastrangelo-dias-a8478b2b" target="_blank">Meu Linkedin</a></li>
-    <li class=links><a href="#foto">Voltar à foto</a></li>
+    <li class=links><a href="#topo">Voltar ao topo</a></li>
   </ul>
     
 
